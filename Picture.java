@@ -44,35 +44,28 @@ public class Picture
         window.moveVertical(40);
         window.changeSize(40);
         window.makeVisible();
-
+        
         roof = new Triangle();  
         roof.changeSize(60, 180);
         roof.moveHorizontal(20);
         roof.moveVertical(-60);
         roof.makeVisible();
-
+        
         sun = new Circle();
         sun.changeColor("blue");
         sun.moveHorizontal(100);
-  
+        
+        suelo = new Circle();
+        suelo.changeColor("green");
+        suelo.moveHorizontal(-520);
+        suelo.moveVertical(150);
+        suelo.changeSize(1100);
+        suelo.makeVisible();
+        
         sun.makeVisible();
         sun.slowMoveVertical(-45);
-        sun.slowMoveVertical(-30);
-        sun.slowMoveVertical(-25);
-        sun.slowMoveVertical(-10);
-        sun.slowMoveVertical(10);
-        sun.slowMoveVertical(20);
-        sun.slowMoveVertical(30);
-        sun.slowMoveVertical(40);
-        sun.slowMoveVertical(0);
-        sun.slowMoveVertical(10);
-        sun.slowMoveVertical(20);
-        sun.slowMoveVertical(30);
-        sun.slowMoveVertical(40);
-        
+        sun.slowMoveVertical(90);
         sun.changeSize(80);
-        
-        
         
         sun2 = new Circle();
         sun2.changeColor("green");
@@ -81,12 +74,7 @@ public class Picture
         sun2.changeSize(80);
         sun2.makeVisible();
         
-        suelo = new Circle();
-        suelo.changeColor("green");
-        suelo.moveHorizontal(-520);
-        suelo.moveVertical(150);
-        suelo.changeSize(1100);
-        suelo.makeVisible();
+        
     }
 
     /**
