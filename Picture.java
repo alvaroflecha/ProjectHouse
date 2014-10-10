@@ -98,6 +98,15 @@ public class Picture
             sun.changeColor("green");
         }
     }
+
+    public void moveSun()
+    {
+    sun2.slowMoveVertical(-50);
+    sun2.slowMoveVertical(30);
 }
+}
+
+    
+
 
 
