@@ -61,8 +61,8 @@ public class Picture
         
         sun2 = new Circle();
         sun2.changeColor("green");
-        sun2.moveHorizontal(75);
-        sun2.moveVertical(-30);
+        sun2.moveHorizontal(90);
+        sun2.moveVertical(-80);
         sun2.changeSize(80);
         sun2.makeVisible();
         
@@ -101,8 +101,8 @@ public class Picture
 
     public void moveSun()
     {
-    sun2.slowMoveVertical(-50);
-    sun2.slowMoveVertical(30);
+    sun2.slowMoveVertical(130);
+    
 }
 }
 
