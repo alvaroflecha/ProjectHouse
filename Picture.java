@@ -79,7 +79,6 @@ public class Picture
             wall.changeColor("black");
             window.changeColor("white");
             roof.changeColor("black");
-            sun.changeColor("black");
             sun2.changeColor("black");
         }
     }
@@ -95,7 +94,7 @@ public class Picture
             window.changeColor("black");
             roof.changeColor("green");
             sun.changeColor("yellow");
-            sun.changeColor("green");
+            sun2.changeColor("green");
         }
     }
 
@@ -103,9 +102,17 @@ public class Picture
     {
     sun2.slowMoveVertical(130);
     
+    
+    if (wall != null)
+    
+    {       wall.changeColor("black");
+            window.changeColor("white");
+            roof.changeColor("black");
+            suelo.changeColor("black");
+            
+        }
 }
 }
-
     
 
 
