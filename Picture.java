@@ -17,6 +17,7 @@ public class Picture
     private Circle sun;
     private Circle sun2;
     private Circle suelo;
+    private Person person1;
 
 
     /**
@@ -66,6 +67,15 @@ public class Picture
         sun2.changeSize(80);
         sun2.makeVisible();
         
+        person1 = new Person();
+        person1.changeColor("green");
+        person1.moveHorizontal(50);
+        person1.moveVertical(20);
+        person1.changeSize(50,30);
+        person1.makeVisible();
+        
+        
+        
         
     }
 
@@ -101,18 +111,16 @@ public class Picture
     public void moveSun()
     {
     sun2.slowMoveVertical(130);
-    
-    
-    if (wall != null)
-    
-    {       wall.changeColor("black");
-            window.changeColor("white");
-            roof.changeColor("black");
-            suelo.changeColor("black");
+    wall.changeColor("black");
+    window.changeColor("white");
+    roof.changeColor("black");
+    suelo.changeColor("black");
             
         }
+     
 }
-}
+
+
     
 
 
