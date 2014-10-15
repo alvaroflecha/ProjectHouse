@@ -68,9 +68,9 @@ public class Picture
         sun2.makeVisible();
         
         person1 = new Person();
-        person1.changeColor("green");
-        person1.moveHorizontal(50);
-        person1.moveVertical(20);
+        person1.changeColor("blue");
+        person1.moveHorizontal(-150);
+        person1.moveVertical(30);
         person1.changeSize(50,30);
         person1.makeVisible();
         
@@ -115,10 +115,16 @@ public class Picture
     window.changeColor("white");
     roof.changeColor("black");
     suelo.changeColor("black");
-            
-        }
-     
+}      
+        
+   
+    public void movePerson()
+    {
+    person1.slowMoveHorizontal(100);
+    
 }
+}
+
 
 
     
